@@ -1,0 +1,7 @@
+/Users/dipankaradhikary/AiAssistantApi/obj/Debug/net6.0/AiAssistantApi.csproj.AssemblyReference.cache
+/Users/dipankaradhikary/AiAssistantApi/obj/Debug/net6.0/AiAssistantApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dipankaradhikary/AiAssistantApi/obj/Debug/net6.0/AiAssistantApi.AssemblyInfoInputs.cache
+/Users/dipankaradhikary/AiAssistantApi/obj/Debug/net6.0/AiAssistantApi.AssemblyInfo.cs
+/Users/dipankaradhikary/AiAssistantApi/obj/Debug/net6.0/AiAssistantApi.csproj.CoreCompileInputs.cache
+/Users/dipankaradhikary/AiAssistantApi/obj/Debug/net6.0/AiAssistantApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/dipankaradhikary/AiAssistantApi/obj/Debug/net6.0/AiAssistantApi.sourcelink.json
