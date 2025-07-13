@@ -11,17 +11,16 @@ builder.Services.AddSingleton<AiService>();
 
 var app = builder.Build();
 
-// Swagger
-if (app.Environment.IsDevelopment())
+// ✅ Enable Swagger always (not just in Development)
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(c => {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "AI Assistant API V1");
-        c.RoutePrefix = ""; // This makes Swagger UI available at the root: http://localhost:5000/
-    });
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "AI Assistant API V1");
+    c.RoutePrefix = ""; // This makes Swagger UI available at root: /
+});
 
 // Middleware
 app.UseAuthorization();
 app.MapControllers();
+
 app.Run();
